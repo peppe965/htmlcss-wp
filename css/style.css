@@ -153,14 +153,29 @@ display: table;
 clear: both;
 }
 
-/* a che serve un commento qui */
+/* parte finale dove ci ho perso più tempo */
 footer{
-  background-color: blue;
+  background-color: #fff;
   /* height: 10vh; */
-  margin: auto;
+  /* width: 100%; */
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px 0;
+
 }
 
-footer div{
+.footer-logo{
+  padding: 20px;
   display: inline-block;
   font-size: 40px;
+  width: 30%;
+  opacity: 0.2;
+}
+
+footer span{
+  opacity: 0.2;
+  line-height: 10px;
+  font-size: 18px;
+  font-style: italic;
+
 }
