@@ -1,0 +1,114 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body solo per mettere sfondo sotto i div */
+body{
+  background-image: url(../img/sfondo.png);
+}
+
+/* per centrare il tutto */
+.container{
+  width: 80vw;
+  margin: auto;
+}
+
+/* intestazione (giallo) */
+header{
+  height: 20vh;
+  background-color: yellow;
+}
+
+.logo{
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/logo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* navbar */
+
+nav{
+  background: grey;
+  line-height: 40px;
+  text-align: center;
+}
+
+ul li{
+  color: #fff;
+  padding: 0 7px;
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 15px;
+}
+
+/* manca hover */
+
+
+
+
+
+
+/* corpo del sito */
+main{
+  /* background-color: lightgreen; */
+  margin: 15px 0;
+}
+
+/* blocco sinistra */
+.magenta-left{
+  background-color: magenta;
+  /* height: 25vw; */
+  width: 25vw;
+  /* overflow: auto; */
+  padding: 20px;
+  float: left;
+}
+
+/* blocco centrale */
+.purple{
+  display: inline-block;
+  background-color: purple;
+  /* height: 75vh; */
+  width: calc(100% - 50vw - 50px);
+  margin-left:25px;
+  padding: 10px;
+}
+
+/* blocchi sinistr */
+.magenta{
+  background-color: magenta;
+  /* height: 15vw; */
+  width: 25vw;
+  /* overflow: auto; */
+  padding: 20px;
+
+}
+
+.right{
+  float: right;
+}
+
+.down{
+  margin-top: 20px;
+}
+
+/* fundamental */
+main::after {
+content: "";
+display: table;
+clear: both;
+}
+
+/* a che serve un commento qui */
+footer{
+  background-color: blue;
+  /* height: 10vh; */
+  margin: auto;
+}
+
+table th{
+}
