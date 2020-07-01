@@ -75,8 +75,33 @@ ul li{
   font-weight: bold;
 }
 
+li a{
+  text-decoration: none;
+  color:white;
+
+}
+
 /* manca hover */
 
+#menu_uno:hover #menu{
+  /* color:red;
+  width: 30px;
+  height: 50px; */
+  display: block;
+}
+
+#menu_uno{
+  position: relative;
+}
+#menu{
+  display: none;
+  width: 150%;
+  float: left;
+  background: lightgrey;
+  position: absolute;
+  left:-10%;
+  top:100%;
+}
 
 
 
